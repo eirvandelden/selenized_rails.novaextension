@@ -1,0 +1,8 @@
+{
+    "identifier": "com.eirvandelden.SelenizedRails",
+    "name": "Selenized (Rails)",
+    "organization": "eirvandelden",
+    "description": "Theme based on colours by Selenized, with personal choices about what to colour",
+    "version": "1.0",
+    "categories": ["themes"]
+}

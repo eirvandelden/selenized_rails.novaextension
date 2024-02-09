@@ -96,7 +96,7 @@ meta.text {
   color: #53676d;
 }
 meta.text.invisible {
-  color: rgba(147 161 161, 0.1);
+  color: rgba(147, 161, 161, 0.1);
 }
 meta.text.selected {
   background-color: #ece3cc;
@@ -208,7 +208,7 @@ identifier.argument {
   color: #489100;
 }
 identifier.key {
-  color: #006dc;
+  color: #006dce;
   font-style: italic;
 }
 
@@ -258,7 +258,7 @@ string.key {
   color: red;
 }
 string-template {
-  color: ##d2212d;
+  color: #d2212d;
 }
 string-template.value {
   color: red;
@@ -312,7 +312,7 @@ tag {
 
 style.attribute.name,
 tag.attribute.name {
-  color: ##53676d;
+  color: #53676d;
   font-style: italic;
 }
 tag.attribute.value {

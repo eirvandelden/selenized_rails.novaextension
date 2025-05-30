@@ -1,31 +1,27 @@
-/* TODO: replace colours with Selenized versions */
-/* Selenized / Solarized colours
-base03 ?? #002b36
-base02 ?? #073642
-base01 #3a4d53 #586e75 - optional emphasized content
-base00 #53676d #657b83 - body text / default code / primary content
-base0  #839496
-base1 #909995 #93a1a1 - comments / secondary content
-base2 #ece3cc #eee8d5 - background highlights
-base3 #fbf3db #fdf6e3 - background
-red #d2212d #dc322f - ??
-green #489100 #859900 - something different but close to content
-yellow #ad8900 #b58900 - keywords
-blue #0072d4 #268bd2 - methods
-magenta #ca4898 #d33682 - variables
-cyan #009c8f #2aa198 - keys
-orange #c25d1e #cb4b16 - constants
-violet #8762c6 #6c71c4 - TODO
+/* Selenized colours
+base01 fg_1 #3a4d53 - optional emphasized content
+base00 fg_0 #53676d - body text / default code / primary content
+base0 bg_2 #d5cdb6
+base1 dim_0 #909995 - comments / secondary content
+base2 bg_1 #ece3cc - background highlights
+base3 bg_0 #fbf3db - background
+red #d2212d    - ??
+green #489100 - something different but close to content
+yellow #ad8900 - keywords
+blue #0072d4 - methods
+magenta #ca4898 - variables
+cyan #009c8f - keys
+orange #c25d1e - constants
+violet #8762c6 - TODO
 
-br_red #cc1729 - - ??
-br_green #428b00 - - ??
-br_yellow #a78300 - - ??
-br_blue #006dce - - ??
-br_magenta #c44392 - - ??
-br_cyan #00978a - - ??
-br_orange #bc5819 - - ??
-br_violet #825dc0 - - ??
-
+br_red #cc1729 - ??
+br_green #428b00 - ??
+br_yellow #a78300 - ??
+br_blue #006dce - ??
+br_magenta #c44392 - ??
+br_cyan #00978a - ??
+br_orange #bc5819 - ??
+br_violet #825dc0 - ??
 */
 
 terminal.black { color: #53676d; }
@@ -48,7 +44,7 @@ terminal.bright-white { color: #ece3cc;}
 meta {
   -theme-display-name: "Selenized Light (Rails)";
   -theme-interface-style: light;
-  -theme-accent-color: auto;
+  -theme-accent-color: true;
 }
 
 /* meta.window {

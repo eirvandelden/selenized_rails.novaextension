@@ -1,30 +1,36 @@
-<!--
-👋 Hello! As Nova users browse the extensions library, a good README can help them understand what your extension does, how it works, and what setup or configuration it may require.
+# Selenized & Solarized
 
-Not every extension will need every item described below. Use your best judgement when deciding which parts to keep to provide the best experience for your new users.
+This extension provides a set of themes for the Selenized and Solarized colorsets for the Nova editor, with personal color choices and careful mapping for code and UI.
 
-💡 Quick Tip! As you edit this README template, you can preview your changes by selecting **Extensions → Activate Project as Extension**, opening the Extension Library, and selecting "Selenized (Rails)" in the sidebar.
+## Theme Previews
 
-Let's get started!
--->
+Below are previews for each included theme:
 
-<!--
-🎈 To give users an idea of what your theme looks like, it's a great idea to show big, beautiful screenshots of your theme in action:
--->
+### Selenized Light
 
-**Selenized (Rails)** provides a fun, bright palette:
+![Selenized Light](Images/extension/light.png)
 
-![](https://nova.app/images/en/dark/editor.png)
+### Selenized Dark
 
-<!--
-🎈 If your extension provides multiple variations, don't forget to show those too!
--->
+![Selenized Dark](Images/extension/dark.png)
 
-Selenized (Rails) also offers a lighter alternative:
+### Selenized Black
 
-![](https://nova.app/images/en/light/editor.png)
+![Selenized Black](Images/extension/black.png)
+
+### Selenized White
+
+![Selenized White](Images/extension/white.png)
+
+### Solarized Light
+
+![Solarized Light](Images/extension/solarized_light.png)
+
+### Solarized Dark
+
+![Solarized Dark](Images/extension/solarized_dark.png)
 
 ## Acknowledgements
 
 * Selenized (Rails) is based on the _Selenized theme_ by [Jan Warchol](https://github.com/jan-warchol/selenized).
-* Solarized by Ethan Schoonover
+* [Solarized](https://github.com/altercation/solarized) by [Ethan Schoonover](https://ethanschoonover.com)

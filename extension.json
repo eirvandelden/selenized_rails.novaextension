@@ -4,5 +4,9 @@
     "organization": "eirvandelden",
     "description": "Theme based on colours by Selenized, with personal choices about what to colour",
     "version": "2.0",
-    "categories": ["themes"]
+    "categories": ["themes"],
+    "icon": "extension.png",
+    "bugs": "https://github.com/eirvandelden/selenized_rails.novaextension/issues",
+    "homepage": "https://github.com/eirvandelden/selenized_rails.novaextension",
+    "repository": "https://github.com/eirvandelden/selenized_rails.novaextension"
 }

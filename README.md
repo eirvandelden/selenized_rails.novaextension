@@ -30,6 +30,14 @@ Below are previews for each included theme:
 
 ![Solarized Dark](Images/extension/solarized_dark.png)
 
+## Generating all themes
+
+To generate all themes, run the following command:
+
+```shell
+ruby generate_themes.rb
+```
+
 ## Acknowledgements
 
 * Selenized (Rails) is based on the _Selenized theme_ by [Jan Warchol](https://github.com/jan-warchol/selenized).

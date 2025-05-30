@@ -3,6 +3,6 @@
 * Rewritten to use ruby script to generate all variants.
 * Add Solarized version as well
 
-## Version 1.0
+## Version 1.0 (Unreleased)
 
-* Initial release
+* Initial version

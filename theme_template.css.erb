@@ -1,0 +1,263 @@
+meta {
+  -theme-display-name: "<%= display_name %>";
+  -theme-interface-style: <%= interface_style %>;
+  -theme-accent-color: <%= accent_color %>;
+}
+
+/* Terminal colours */
+terminal.black { color: <%= colors['fg_0'] %>; }
+terminal.red  { color: <%= colors['red'] %>; }
+terminal.green { color: <%= colors['green'] %>; }
+terminal.yellow { color: <%= colors['yellow'] %>; }
+terminal.blue { color: <%= colors['blue'] %>; }
+terminal.magenta { color: <%= colors['magenta'] %>; }
+terminal.cyan { color: <%= colors['cyan'] %>; }
+terminal.white { color: <%= colors['bg_0'] %>; }
+terminal.bright-black { color: <%= colors['fg_1'] %>; }
+terminal.bright-red { color: <%= colors['br_red'] %>; }
+terminal.bright-green { color: <%= colors['br_green'] %>; }
+terminal.bright-yellow { color: <%= colors['br_yellow'] %>; }
+terminal.bright-blue { color: <%= colors['br_blue'] %>; }
+terminal.bright-magenta { color: <%= colors['br_magenta'] %>; }
+terminal.bright-cyan { color: <%= colors['br_cyan'] %>; }
+terminal.bright-white { color: <%= colors['bg_1'] %>; }
+
+meta.document {
+  background-color: <%= colors['bg_0'] %>;
+  border-color: <%= colors['bg_1'] %>;
+}
+
+meta.text {
+  color: <%= colors['fg_0'] %>;
+}
+meta.text.invisible {
+  color: rgba(147, 161, 161, 0.1);
+}
+meta.text.selected {
+  background-color: <%= colors['bg_1'] %>;
+}
+
+meta.cursor {
+  border-color: #839496;
+  background-color: <%= colors['bg_1'] %>;
+}
+meta.indentguide {
+  border-color: <%= colors['bg_1'] %>;
+}
+
+meta.gutter {
+  background-color: <%= colors['bg_0'] %>;
+  border-color: <%= colors['bg_0'] %>;
+  color: <%= colors['dim_0'] %>;
+}
+meta.gutter.selected {
+  background-color: <%= colors['bg_1'] %>;
+  color: <%= colors['dim_0'] %>;
+}
+
+/*
+ * Syntax styles
+ */
+
+comment {
+  color: <%= colors['dim_0'] %>;
+  font-style: italic;
+}
+processing {
+  color: <%= colors['red'] %>;
+  font-style: italic;
+}
+declaration {
+  color: <%= colors['yellow'] %>;
+  font-style: italic;
+}
+
+bracket,
+html.tag-bracket,
+html.tag.open.paired,
+css.style.attribute-list.bracket,
+punctuation.bracket,
+ruby.bracket {
+  color: <%= colors['dim_0'] %>;
+}
+
+operator {
+  color: <%= colors['fg_1'] %>;
+}
+
+link {
+  color: <%= colors['red'] %>;
+}
+
+html.tag.name,
+keyword {
+  color: <%= colors['dim_0'] %>;
+  font-style: italic;
+}
+invalid {
+  background-color: <%= colors['red'] %>;
+}
+
+style.value.boolean,
+style.value.null,
+style.value.number,
+style.value.entity,
+style.value.symbol {
+  color: <%= colors['yellow'] %>;
+}
+style.value.keyword,
+style.value.color.hex,
+style.value.color.named {
+  color: <%= colors['yellow'] %>;
+}
+
+identifier.global {
+  color: <%= colors['orange'] %>;
+}
+identifier.constant {
+  color: <%= colors['orange'] %>;
+}
+identifier.variable {
+  color: <%= colors['magenta'] %>;
+}
+identifier.type {
+  color: <%= colors['orange'] %>;
+}
+identifier.function {
+  color: <%= colors['blue'] %>;
+}
+
+identifier.property {
+  color: <%= colors['blue'] %>;
+}
+
+identifier.method {
+  color: <%= colors['blue'] %>;
+}
+identifier.core.method {
+  color: <%= colors['orange'] %>;
+}
+identifier.argument {
+  color: <%= colors['green'] %>;
+}
+identifier.key {
+  color: <%= colors['br_blue'] %>;
+  font-style: italic;
+}
+
+identifier.name {
+  color: <%= colors['blue'] %>;
+}
+identifier.type.superclass {
+  color: <%= colors['yellow'] %>;
+}
+
+identifier.class.type.name {
+  color: <%= colors['blue'] %>;
+}
+
+identifier.class.type.module.name {
+  color: <%= colors['yellow'] %>;
+}
+
+identifier.type.superclass.module {
+  color: <%= colors['orange'] %>;
+}
+
+collection.array {
+  color: <%= colors['orange'] %>;
+}
+
+cdata {
+  color: <%= colors['fg_0'] %>;
+}
+
+string {
+  color: <%= colors['green'] %>;
+}
+string.special.symbol{
+  font-style: italic;
+}
+regex {
+  color: <%= colors['red'] %>;
+}
+
+string.escaped,
+regex.escaped {
+  color: <%= colors['red'] %>;
+}
+
+string.key {
+  color: <%= colors['red'] %>;
+}
+string-template {
+  color: <%= colors['red'] %>;
+}
+string-template.value {
+  color: <%= colors['red'] %>;
+}
+string.percent-quoted.prefix {
+  color: <%= colors['orange'] %>;
+}
+string.percent-quoted.delimiter {
+  color: <%= colors['orange'] %>;
+}
+
+markup.heading {
+  color: <%= colors['blue'] %>;
+  font-weight: bold;
+}
+markup.line {
+  color: <%= colors['dim_0'] %>;
+}
+markup.bold {
+  color: <%= colors['magenta'] %>;
+  font-weight: bold;
+}
+markup.italic {
+  color: <%= colors['red'] %>;
+  font-style: italic;
+}
+markup.strikethrough {
+  color: <%= colors['dim_0'] %>;
+}
+markup.list.item {
+  color: <%= colors['red'] %>;
+}
+markup.code {
+  color: <%= colors['cyan'] %>;
+  background-color: <%= colors['bg_0'] %>;
+}
+markup.link {
+  color: <%= colors['red'] %>;
+}
+markup.image {
+  color: <%= colors['red'] %>;
+}
+
+tag {
+  color: <%= colors['dim_0'] %>;
+}
+
+style.attribute.name,
+tag.attribute.name {
+  color: <%= colors['fg_0'] %>;
+  font-style: italic;
+}
+tag.attribute.value {
+  color: <%= colors['green'] %>;
+}
+tag.framework {
+  color: <%= colors['dim_0'] %>;
+}
+
+style.value.number {
+  color: <%= colors['orange'] %>;
+}
+style.string {
+  color: <%= colors['fg_0'] %>;
+}
+
+style.at {
+  color: <%= colors['red'] %>;
+}

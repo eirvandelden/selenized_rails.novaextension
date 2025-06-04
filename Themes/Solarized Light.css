@@ -22,6 +22,16 @@ terminal.bright-magenta { color: #d33682; }
 terminal.bright-cyan { color: #2aa198; }
 terminal.bright-white { color: #eee8d5; }
 
+/* Window */
+meta.window {
+  background-color: #fdf6e3;
+  border-color: #eee8d5
+}
+meta.titlebar {
+  border-color: #eee8d5;
+}
+
+/* Document */
 meta.document {
   background-color: #fdf6e3;
   border-color: #eee8d5;

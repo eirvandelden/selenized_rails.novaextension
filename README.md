@@ -8,27 +8,27 @@ Below are previews for each included theme:
 
 ### Selenized Light
 
-![Selenized Light](Images/extension/light.png)
+![Selenized Light](https://raw.githubusercontent.com/eirvandelden/selenized_rails.novaextension/master/Images/extension/light.png)
 
 ### Selenized Dark
 
-![Selenized Dark](Images/extension/dark.png)
+![Selenized Dark](https://raw.githubusercontent.com/eirvandelden/selenized_rails.novaextension/master/Images/extension/dark.png)
 
 ### Selenized Black
 
-![Selenized Black](Images/extension/black.png)
+![Selenized Black](https://raw.githubusercontent.com/eirvandelden/selenized_rails.novaextension/master/Images/extension/black.png)
 
 ### Selenized White
 
-![Selenized White](Images/extension/white.png)
+![Selenized White](https://raw.githubusercontent.com/eirvandelden/selenized_rails.novaextension/master/Images/extension/white.png)
 
 ### Solarized Light
 
-![Solarized Light](Images/extension/solarized_light.png)
+![Solarized Light](https://raw.githubusercontent.com/eirvandelden/selenized_rails.novaextension/master/Images/extension/solarized_light.png)
 
 ### Solarized Dark
 
-![Solarized Dark](Images/extension/solarized_dark.png)
+![Solarized Dark](https://raw.githubusercontent.com/eirvandelden/selenized_rails.novaextension/master/Images/extension/solarized_dark.png)
 
 ## Generating all themes
 

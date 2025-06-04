@@ -3,7 +3,7 @@
     "name": "Selenized & Solarized",
     "organization": "eirvandelden",
     "description": "Theme based on colours by Selenized, with personal choices about what to colour",
-    "version": "2.0",
+    "version": "2.0.1",
     "categories": ["themes"],
     "icon": "extension.png",
     "bugs": "https://github.com/eirvandelden/selenized_rails.novaextension/issues",

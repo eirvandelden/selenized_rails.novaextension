@@ -24,8 +24,8 @@ terminal.bright-white { color: #eee8d5; }
 
 /* Window */
 meta.window {
-  background-color: #fdf6e3;
-  border-color: #eee8d5
+  background-color: #eee8d5;
+  border-color: #93a1a1
 }
 meta.titlebar {
   border-color: #eee8d5;

@@ -1,6 +1,24 @@
 # Selenized & Solarized
 
-This extension provides a set of themes for the Selenized and Solarized colorsets for the Nova editor, with personal color choices and careful mapping for code and UI.
+This extension provides a set of themes for the Selenized and Solarized colorsets. It uses the official color values and uses the values as determined in Solarized, but with personal color for keywords:
+
+* Document darkest/lightest background color.
+* Document borders are one background color value away.
+* Window is colored, one background color value away from document background
+  * Thanks to @altercation himself for this suggestion!
+* Window borders are colored, one background color value away from window background
+* Comments are dimmed and italic
+* Brackets are dimmed
+* Links are red
+* Booleans/Numbers/Symbols/Entities are yellow
+* Hex values are yellow
+* Globals and constants are orange
+* Variables are magenta
+* Types are orange
+* Functions/Methods/Properties are blue
+  * Core methods are *orange*
+* Arguments are green
+* Strings are green
 
 ## Theme Previews
 
@@ -32,6 +50,7 @@ Below are previews for each included theme:
 
 ## Generating all themes
 
+This extension works by defining all the variants in a YML file and then generate each theme separately.
 To generate all themes, run the following command:
 
 ```shell
